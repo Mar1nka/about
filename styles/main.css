@@ -37,7 +37,7 @@ body {
     align-items: center;
 }
 
-header {
+.header {
     width: 1024px;
     display: flex;
     flex-direction: row;
@@ -74,6 +74,8 @@ main {
     flex: auto;
 }
 
+/* about */
+
 .about-wrapper {
     background: #feffe7;
 
@@ -87,30 +89,18 @@ main {
     width: 1024px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: flex-start;
-}
 
-.about__name {
-    align-self: flex-end;
-    margin: 20px 0;
-    color: #054f71;
-    font-size: 45px;
-    font-weight: bold;
-
-}
-
-.about__name p {
-    border-bottom: 4px double #054f71;
+    padding: 40px 10px;
 }
 
 .about__info {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-content: center;
-    margin-bottom: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
 }
 
 .about__photo {
@@ -119,15 +109,20 @@ main {
     margin-right: 40px;
 }
 
+.about__name {
+    margin: 20px 0;
+    color: #054f71;
+    font-size: 45px;
+    font-weight: bold;
+}
+
 .about__text {
     align-self: center;
-
-    margin: 0 40px;
     font-size: 20px;
 }
 
-.about__text {
-}
+
+/* expectation */
 
 .expectation-wrapper {
     background: #f9fad1;
@@ -145,11 +140,11 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-bottom: 20px;
+    padding: 40px 10px;
 }
 
 .expectation__header {
-    margin: 40px 0 20px 0;
+    margin-bottom: 20px;
     color: #054f71;
     font-size: 35px;
     font-weight: bold;
@@ -165,19 +160,15 @@ main {
 
 .expectation__item {
     margin: 15px;
-
     background: #0570a0;
     color: white;
     border-radius: 10px;
     font-size: 20px;
-}
-
-.expectation__item p {
     padding: 15px;
 }
 
 
-
+/* works */
 
 .works-wrapper {
     background: #ebecc5;
