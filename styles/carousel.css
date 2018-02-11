@@ -1,0 +1,78 @@
+.css-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+}
+
+.css-carousel input[name="carousel"] {
+    display: none;
+}
+
+.carousel-nav {
+    text-align: center;
+}
+
+.css-carousel .carousel-nav label {
+    display: inline-block;
+    margin: 5px 10px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border: 2px solid #054f71;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.css-carousel .carousel-nav label:hover {
+    background-color: #0570a0;
+}
+
+.css-carousel #carousel-1:checked ~ .carousel-nav label[for="carousel-1"] {
+    background-color: #0570a0;
+}
+
+.css-carousel #carousel-2:checked ~ .carousel-nav label[for="carousel-2"] {
+    background-color: #0570a0;
+}
+
+.css-carousel #carousel-3:checked ~ .carousel-nav label[for="carousel-3"] {
+    background-color: #0570a0;
+}
+
+.css-carousel #carousel-4:checked ~ .carousel-nav label[for="carousel-4"] {
+    background-color: #0570a0;
+}
+
+.css-carousel .carousel-slides {
+    width: 100%;
+    overflow: hidden;
+}
+
+.css-carousel .carousel-slides .carousel-inner {
+    width: 400%;
+    transition: margin 1s;
+}
+
+.css-carousel .carousel-slides .carousel-item {
+    float: left;
+    width: 25%;
+}
+
+.css-carousel #carousel-1:checked ~ .carousel-slides .carousel-inner {
+    margin-left: 0%;
+}
+
+.css-carousel #carousel-2:checked ~ .carousel-slides .carousel-inner {
+    margin-left: -100%;
+}
+
+.css-carousel #carousel-3:checked ~ .carousel-slides .carousel-inner {
+    margin-left: -200%;
+}
+
+.css-carousel #carousel-4:checked ~ .carousel-slides .carousel-inner {
+    margin-left: -300%;
+}
