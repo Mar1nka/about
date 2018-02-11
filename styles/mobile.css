@@ -19,11 +19,6 @@
     }
 
 
-
-    .header-wrapper {
-        display: none;
-    }
-
     .about {
         flex-direction: column;
         justify-content: center;
