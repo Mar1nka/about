@@ -72,7 +72,7 @@
 
     <div class="works-wrapper">
         <div class="works">
-            <div class="works-header">Мои работы</div>
+            <div class="works__header">Мои работы</div>
             <div class="works__items">
 
                 <div class="works__item">
@@ -246,33 +246,54 @@
 
             <div class="contact__content">
                 <div class="contact__description">
-                    <div class="contact-content__text">Обучение происходит по вечерам в будние дни, а хакатоны — по
+                    <div class="contact__text">Обучение происходит по вечерам в будние дни, а хакатоны — по
                         выходным. Это позволяет
                         совмещать занятия с учёбой или работой. В «Яндексе» утверждают, что лучшие выпускники
                         курса, который продлится с 1 марта до середины мая, получат приглашения на стажировку в
                         компании.
                     </div>
 
-                    <div class="contact__social-networks">
+                    <div class="social-networks">
                         <div class="social-networks__header">Ссылки на мои соцсети:</div>
                         <div class="social-networks__items">
-                            <a href="#" class="social-networks__item">Facebook</a>
-                            <a href="#" class="social-networks__item">ВКантакте</a>
-                            <a href="#" class="social-networks__item">GitHub</a>
-                            <a href="#" class="social-networks__item">Twitter</a>
+
+                            <div class="social-networks__item">
+                                <span class="social-networks__icon icon-facebook2"></span>
+                                <a href="#" class="social-networks__link">Facebook</a>
+                            </div>
+
+                            <div class="social-networks__item">
+                                <span class="social-networks__icon icon-vk"></span>
+                                <a href="#" class="social-networks__link">ВКонтакте</a>
+                            </div>
+
+                            <div class="social-networks__item">
+                                <span class="social-networks__icon icon-github"></span>
+                                <a href="#" class="social-networks__link">GitHub</a>
+                            </div>
+
+                            <div class="social-networks__item">
+                                <span class="social-networks__icon icon-twitter"></span>
+                                <a href="#" class="social-networks__link">Twitter</a>
+                            </div>
                         </div>
                     </div>
                 </div>
 
 
-                <form class="contact-content__form">
-                    <input class="form__item" placeholder="Имя">
-                    <input class="form__item" type="email" placeholder="Почтовый ящик">
-                    <textarea class="form__item form__text-area" rows="10" placeholder="Сообщение"></textarea>
-                    <label class="form__item form__label-file">Прикрепить ТЗ
-                        <input class="form__file" type="file" name="file">
-                    </label>
-                    <button class="form__item form__button">Отправить</button>
+                <form class="contact-form">
+                    <input class="contact-form__item" placeholder="Имя">
+                    <input class="contact-form__item" type="email" placeholder="Почтовый ящик">
+                    <textarea class="contact-form__item contact-form__text-area" rows="10" placeholder="Сообщение"></textarea>
+
+                    <div class="contact-form__item contact-form__add-file">
+                        <span class="contact-form__add-file-icon icon-file-empty"></span>
+                        <label class="contact-form__file-label">Прикрепить ТЗ
+                            <input class="contact-form__file-input" type="file" name="file">
+                        </label>
+                    </div>
+
+                    <button class="contact-form__item contact-form__button">Отправить</button>
                 </form>
 
             </div>

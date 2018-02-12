@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Helvetica-Bold';
+    src: url("../fonts/Helvetica-Bold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url("../fonts/Georgia.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

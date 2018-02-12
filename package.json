@@ -12,6 +12,7 @@
     "style-loader": "^0.20.1",
     "css-loader": "^0.28.9",
     "postcss-loader": "^2.1.0",
-    "postcss-nested": "^3.0.0"
+    "postcss-nested": "^3.0.0",
+    "file-loader": "^1.1.6"
   }
 }

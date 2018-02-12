@@ -8,7 +8,6 @@ module.exports = {
         filename: 'bundle.js',
          publicPath: '/dist'
     },
-    watch:true,
     module: {
         rules: [
             {
@@ -34,6 +33,13 @@ module.exports = {
                         }
                         ]
                 })
+            },
+            {
+                test: /\.(ttf|eot|woff|woff2)$/,
+                loader: "file-loader",
+                options: {
+                    name: "fonts/[name].[ext]",
+                }
             }
         ]
     },
