@@ -11,7 +11,6 @@
   }
 
   .contact {
-    width: var(--main-content-width);
     padding-bottom: 30px;
   }
 }

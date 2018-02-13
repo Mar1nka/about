@@ -4,10 +4,20 @@
     justify-content: center;
     align-content: center;
     padding: 5px;
+
+    @media(max-width: 1024px) {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }
 
 .css-carousel--reverse {
     flex-direction: row-reverse;
+
+    @media(max-width: 1024px) {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }
 
 .css-carousel input[name^="carousel"] {
@@ -17,7 +27,12 @@
 .carousel-nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;}
+    justify-content: center;
+
+    @media(max-width: 1024px) {
+        flex-direction: row;
+    }
+}
 
 .css-carousel .carousel-nav label {
     display: inline-block;
