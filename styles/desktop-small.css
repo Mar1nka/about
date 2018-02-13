@@ -1,0 +1,17 @@
+@media (max-width: 1440px) {
+
+  :root {
+    --main-content-width: 944px;
+  }
+
+  .about {
+    &__photo {
+      min-width: 424px;
+    }
+  }
+
+  .contact {
+    width: var(--main-content-width);
+    padding-bottom: 30px;
+  }
+}

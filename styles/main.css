@@ -4,6 +4,7 @@
 @import "/icons/style.css";
 
 @import "desktop.css";
+@import "desktop-small.css";
 @import "carousel.css";
 @import "tablet.css";
 @import "mobile.css";
