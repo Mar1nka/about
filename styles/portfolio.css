@@ -49,7 +49,7 @@ main {
   @media (max-width: 1024px) {
     height: auto;
     width: auto;
-    padding: 0 20px;
+    padding: 0 30px;
   }
 }
 
@@ -69,7 +69,7 @@ main {
 
     max-width: var(--main-content-width);
     height: auto;
-    padding: 145px 0;
+    padding: 100px 0;
   }
 
   @media (max-width: 515px) {
@@ -91,7 +91,8 @@ main {
       align-items: center;
 
       max-width: 100%;
-      padding: 60px 0 0 0;
+      margin: 60px 0 0 0;
+      padding: 0;
       text-align: center;
     }
   }
@@ -170,7 +171,7 @@ main {
   justify-content: flex-start;
   align-items: center;
 
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .expectation {
@@ -303,7 +304,7 @@ main {
   justify-content: flex-start;
   align-items: center;
 
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .works {
@@ -368,7 +369,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     width: 40%;
     margin-left: 30px;
 
@@ -400,7 +400,7 @@ main {
       align-items: flex-start;
 
       width: 100%;
-      margin-left: 0;
+      margin-right: 0;
       margin-bottom: 20px;
 
       @media (max-width: 515px) {
@@ -484,7 +484,7 @@ main {
   align-items: center;
 
   background: linear-gradient(#E6F0F0, #E9F0E6);
-  padding: 0 20px;
+  padding: 0 30px;
 }
 
 .contact {
@@ -492,7 +492,7 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-
+  width: 100%;
   max-width: var(--main-content-width);
   padding: 60px 0;
 
@@ -558,7 +558,7 @@ main {
     margin-bottom: 20px;
 
     @media (max-width: 1024px) {
-      max-width: 70%;
+      max-width: 66%;
       margin: 0 40px 0 0;
     }
 
@@ -576,7 +576,7 @@ main {
   align-items: flex-start;
 
   @media (max-width: 1024px) {
-    max-width: 30%;
+    max-width: 34%;
   }
 
   @media (max-width: 515px) {
