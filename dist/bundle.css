@@ -620,7 +620,7 @@ main {
 .about__photo {
     min-width: 552px;
     height: 100%;
-    background: url('../images/Marinka.jpg') no-repeat 50% 50%;
+    background: url('../images/Marinka.jpg') no-repeat 50% 5%;
   }
 
 @media (max-width: 1440px) {
@@ -638,7 +638,7 @@ main {
       max-width: 384px;
       max-height: 384px;
 
-      background: url('../images/Marinka.jpg') no-repeat 50% 50%;
+      background: url('../images/Marinka.jpg') no-repeat 50% 20%;
       border-radius: 50%
   }
     }
@@ -651,7 +651,7 @@ main {
       max-width: 144px;
       max-height: 144px;
 
-      background: url('../images/Marinka.jpg') no-repeat 50% 50%
+      background: url('../images/Marinka.jpg') no-repeat 50% 17%
   }
     }
 
